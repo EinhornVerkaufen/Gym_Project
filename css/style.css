@@ -1,0 +1,28 @@
+.section-header-cap-left-logo{
+    position: absolute;
+width: 112px;
+height: 54px;
+left: 150px;
+top: 25px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+color: #fff;
+}
+.red{
+    color: #A92A1D;
+}
+.section-outer section-header{
+    position: absolute;
+width: 1600px;
+height: 850px;
+left: 1600px;
+top: 847px;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 71.06%, #000000 91.71%);
+transform: rotate(180deg);
+}
