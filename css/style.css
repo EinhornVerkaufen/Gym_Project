@@ -42,6 +42,14 @@ left: 299px;
 top: 36px;
 color: #ffff;
 }
+.work-time{
+    position: absolute;
+width: 262px;
+height: 32px;
+left: 299px;
+top: 36px;
+color: #ffff;
+}
 .red{
     color: #A92A1D;
 }
@@ -135,3 +143,5 @@ border: 0px;
     left: 140px;
     top: 230px;
 }
+
+
