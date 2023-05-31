@@ -6,13 +6,11 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
-body{
-    max-width: 1600px;
-}
+
 header{
     
     width: 100%;
-    height: 850px;
+    min-height: 850px;
     left: 0px;
     top: 0px;
 
@@ -364,6 +362,9 @@ main{
 
     color: rgba(255, 255, 255, 0.75);
 }
+.gallery{
+    max-height: 1200px;
+}
 .pic_one{
     position: relative;
     width: 514px;
@@ -428,7 +429,84 @@ main{
 
     color: rgba(255, 255, 255, 0.75);
 }
-.subscribe_panel{
-    background-image: url(/img/Rectangle\ 486.png);
+
+.email_input{
+    background-image: url(../img/Rectangle\ 486.png);
     min-height: 1050px;
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+    left: -100px;
+    background-repeat: no-repeat;
+    
+}
+.subscribe_span{
+    position: relative;
+    width: 550px;
+    height: 44px;
+    left: 500px;
+    top: 500px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.75);
+}
+.sub_lorem{
+    position: relative;
+    width: 617px;
+    height: 26px;
+    left: 450px;
+    top: 530px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    
+
+    text-align: center;
+    letter-spacing: -0.05em;
+
+    color: rgba(255, 255, 255, 0.75);
+}
+.email_type{
+    position: relative;
+    width: 402px;
+    height: 60px;
+    left: 580px;
+    top: 550px;
+
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.email_submit{
+    position: relative;
+    width: 402px;
+    height: 60px;
+    left: 175px;
+    top: 630px;
+
+    color: #000000;
+
+    background-color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
 }
