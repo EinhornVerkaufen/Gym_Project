@@ -510,3 +510,57 @@ main{
     font-weight: 500;
     font-size: 18px;
 }
+footer{
+    background-color: #000000;
+}
+.footer_content{
+    color: rgba(255, 255, 255, 0.75);
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+.f_logo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+.f_text{
+    width: 379px;
+    height: 109px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    /* or 200% */
+
+    letter-spacing: -0.05em;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+}
+.f_span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 21px;
+}
+.information a{
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
