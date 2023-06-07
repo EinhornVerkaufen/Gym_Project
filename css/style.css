@@ -17,8 +17,7 @@ header{
     transform: rotate(0deg);
     /* background-image: url("/img/Rectangle\ 464.png"); */
     background: linear-gradient(to top, rgba(0, 0, 0, 0.65) 71.06%, #000000 91.71%),url("../img/Rectangle\ 464.png");
-    background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: 100%;
 }
 .logo{
     padding-top: 25px;
@@ -53,12 +52,21 @@ header{
 
 }
 .right-nav {
-    padding-top: 36px;
+    padding-top: 30px;
     display: flex;
     align-items: center;
-    padding-left: 361px;
+    padding-left: 401px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
 }
-  
+.right-nav button{
+    width: 111px;
+    height: 50px;
+}
 .nav-links a {
     text-decoration: none;
     color: #FFFFFF;
@@ -104,18 +112,20 @@ header{
     width: 1300px;
     margin: 0 auto;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .promo{
-    padding-top: 336px;
-    position: relative;
+    padding-top: 230px;
+    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 55px;
     line-height: 73px;
     color: rgba(255, 255, 255, 0.75);
-    display: flex;
+    
 }
 .promo hr{
     width: 132px;
@@ -123,19 +133,22 @@ header{
     max-height: 1px;
 }
 .promo-text{
-    width: 460px;
+    width: 650px;
     height: 219px;
-    position: relative;
-    top: -18px;
-    left: 10px;
+    padding-top: -20px;
+    padding-left: 150px;
 }
 .promo-button{
-    margin: 0 auto;
-    width: 110px;
-    height: 40px;
+    width: 150px;
+    height: 50px;
     background-color: #A92A1D;
     color: #ffff;
     border: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
 }
 .promo-button:active {
     background-color: #611a12;
@@ -145,24 +158,25 @@ header{
     text-shadow: 0 0 20px #FFFFFF;
 }
 .promo img{
-    scale: 2;
-    left: 140px;
-    top: 230px;
+    scale: 2.5;
+    padding-left: 15px;
+    fill: #FFFFFF;
 }
 .social-media-links {
     display: flex;
-    flex-direction: column;
-    gap: 50px;
     position: relative;
-    top: -350px;
-    left: 1260px;
+    top: -210px;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 0px;
+    padding-left: 1370px;
     align-items: center;
     width: 50px;
   }
 .links {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
 }
 .links img{
     width: 25px;
@@ -171,10 +185,15 @@ header{
 .scroll-to-main{
     position: relative;
     rotate: 90deg;
-    left: 336px;
+    left: 150px;
+    bottom: -90px;
     background-color: rgba(0, 0, 0, 0);
     color: #FFFFFF;
     /* border: 0px; */
+}
+.scroll-to-main:hover{
+    box-shadow: 0px 0px 10px #A92A1D;
+    text-shadow: 0 0 20px #FFFFFF;
 }
 .arrow_down{
     position: absolute;
@@ -188,12 +207,16 @@ main{
 }
 .prev_next{
     position: fixed;
-    left: 90%;
-    top: 75%;
+    left: 92%;
+    top: 70%;
     
     display: flex;
     flex-direction: column;
     
+}
+.prev_next:hover{
+    box-shadow: 0px 0px 10px #A92A1D;
+    text-shadow: 0 0 20px #FFFFFF;
 }
 .next{
     rotate: 90deg;
@@ -228,7 +251,7 @@ main{
     left: 450px;
 }
 .exercise-main-text{
-    position: relative;
+    /* position: relative; */
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -238,10 +261,10 @@ main{
     text-align: center;
     letter-spacing: -0.05em;
     color: rgba(255, 255, 255, 0.75);
-    width: 790px;
+    width: 1050px;
     height: 93px;
-    top: 155px;
-    left: 250px;
+    padding-top: 155px;
+    padding-left: 250px;
 }
 .first-exercises-text{
     position: relative;
@@ -249,17 +272,15 @@ main{
     width: 1300px;
 }
 .line-2{
-    position: relative;
-    top: 155px;
-    left: 590px;
+    padding-top: 100px;
+    padding-left: 570px;
     max-width: 400px;
 }
 .many-pictures img{
-    position: relative;
     display: block;
     margin: 0 auto;
     scale: 1;
-    top: 300px;
+    padding-top: 113px;
 }
 .training{
     position: relative;
@@ -267,9 +288,8 @@ main{
     width: 1300px;
 }
 .ult_train{
-    position: relative;
-    top: 450px;
-    
+    padding-top: 116px;
+    padding-left: 7px;
     width: 400px;
     height: 132px;
     
@@ -282,12 +302,8 @@ main{
     color: rgba(255, 255, 255, 0.75);
 }
 .ult_train_text{
-    position: relative;
-    top: 350px;
-
-    width: 680px;
     height: 136px;
-    left: 690px;
+    padding-left: 590px;
     
 
     font-family: 'Montserrat';
@@ -303,23 +319,27 @@ main{
 }
 .ult_train_text p{
     position: relative;
-    top: -100px;
-    left: 10px;
+    top: -110px;
+    left: 9px;
+    width: 690px;
+    
 }
 .gallery_pers_train{
     position: relative;
-    margin: 0 auto;
-    width: 1300px;
-    top: 500px;
     left: -150px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+    
+}
+.p_text{
+    padding-top: 210px;
+    padding-left: 82px ;
 }
 .pers_train{
-    position: relative;
+    
     width: 350px;
     height: 44px;
-    left: 880px;
-    top: -550px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -330,12 +350,9 @@ main{
     color: rgba(255, 255, 255, 0.75);
 }
 .time_optimized{
-    position: relative;
+    
     width: 500px;
     height: 29px;
-    left: 880px;
-    top: -525px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -345,12 +362,9 @@ main{
     color: rgba(255, 255, 255, 0.75);
 }
 .some_text{
-    position: relative;
-    width: 650px;
+    
+    width: 500px;
     height: 136px;
-    left: 880px;
-    top: -500px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -363,42 +377,35 @@ main{
     color: rgba(255, 255, 255, 0.75);
 }
 .gallery{
+    position: relative;
+    width: 1600px;
     max-height: 1200px;
+    top: -165px;
+    left: -150px;
 }
 .pic_one{
     position: relative;
-    width: 514px;
-    height: 369px;
-    left: 935px;
-    top: 0;    
+    padding-left: 1120px;
 }
 .pic_two{
     position: relative;
-    width: 500px;
-    height: 503px;
-    left: -670px;
-    top: 580px;
+    top: 80px;
 }
 .pic_three{
     position: relative;
-    width: 500px;
-    height: 492px;
-    left: 400px;
-    top: -100px;
+    top:-65px;
+    padding-left: 45px;
 }
 .pic_four{
     position: relative;
-    width: 500px;
-    height: 503px;
-    left: 950px;
-    top: -550px;
+    top: -545px;
+    padding-left: 1095px;
 }
 .welcome_bottom{
     position: relative;
     width: 500px;
-    height: 503px;
-    left: 530px;
-    top: -80px;
+    left: 680px;
+    top: -30px;
     width: 241px;
     height: 29px;
 
@@ -414,8 +421,8 @@ main{
     position: relative;
     width: 388px;
     height: 93px;
-    left: 450px;
-    top: -70px;
+    left: 600px;
+    top: -10px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -429,23 +436,26 @@ main{
 
     color: rgba(255, 255, 255, 0.75);
 }
-
 .email_input{
     background-image: url(../img/Rectangle\ 486.png);
     min-height: 1050px;
     position: relative;
     width: 1300px;
     margin: 0 auto;
-    left: -100px;
+    /* left: -150px; */
+    top: -340px;
     background-repeat: no-repeat;
-    
+    align-items: center;
+    /* display: flex;
+    flex-direction: column;
+    gap: 50px; */
 }
 .subscribe_span{
-    position: relative;
-    width: 550px;
+   
+    width: 950px;
     height: 44px;
-    left: 500px;
-    top: 500px;
+    padding-left: 370px;
+    padding-top: 500px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -459,11 +469,11 @@ main{
     color: rgba(255, 255, 255, 0.75);
 }
 .sub_lorem{
-    position: relative;
-    width: 617px;
+    
+    width: 950px;
     height: 26px;
-    left: 450px;
-    top: 530px;
+    padding-left: 310px;
+    padding-top: 55px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -478,11 +488,11 @@ main{
     color: rgba(255, 255, 255, 0.75);
 }
 .email_type{
-    position: relative;
+   position: relative;
     width: 402px;
     height: 60px;
-    left: 580px;
-    top: 550px;
+    left: 450px;
+    top: 50px;
 
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid rgba(255, 255, 255, 0.75);
@@ -495,11 +505,11 @@ main{
     font-size: 18px;
 }
 .email_submit{
-    position: relative;
+   position: relative;
     width: 402px;
     height: 60px;
-    left: 175px;
-    top: 630px;
+    left: 450px;
+    top: 50px;
 
     color: #000000;
 
@@ -509,6 +519,12 @@ main{
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
+}
+.email_submit:hover{
+    box-shadow: 0px 0px 10px #A92A1D;
+    text-shadow: 0 0 20px #FFFFFF;
+    background-color: #A92A1D;
+    color: #FFFFFF;
 }
 footer{
     background-color: #000000;
@@ -520,6 +536,7 @@ footer{
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    top: -310px;
     
 }
 .f_logo{
@@ -546,6 +563,7 @@ footer{
     display: flex;
     flex-direction: column;
     padding-left: 150px;
+    gap: 20px;
 }
 .f_span{
     font-family: 'Poppins';
@@ -562,5 +580,12 @@ footer{
     font-size: 18px;
     line-height: 24px;
     text-decoration: none;
+}
+.copyrights{
+    position: relative;
+    top: -200px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+    min-height: 100px;
 }
 
